@@ -1,7 +1,6 @@
 
 public class Card {
     
-    //created using top-down
     //first two values null so array slots represent their literal values (example: array slot 2 maps to rank 2, 9 maps to 9)
     public static final String[] RANKS = {null, null, "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"};
     public static final String[] SUITS = {"Clubs", "Diamonds", "Hearts", "Spades"};
