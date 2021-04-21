@@ -7,16 +7,8 @@ import java.util.Random;
 
 public class Game {
     public static void main(String[] args) {
-
-        //Possible error scenarios:
-        //1. In the event player 1 has 2 cards, player 2 has 3 cards, and they enter a war via a tie, player 2 will not have enough cards to fulfill
-        //the war.
-        //2. In the event that a tie occurs between the first card and both of the second two flipped cards (3 ties in a row (1/14)^3 or 1/2744 
-        //probability of occurring) then the program would not be able to handle past this amount of ties. However, due to the probability of this
-        //event being so low I determined that I did not need to handle beyond past 3 ties in a row for the scope of this project. I handle this
-        //scenario by letting both sides keep their cards if this occurs.
         
-        //Note: remove comment at end where specified to change program to turn-by-turn mode.
+        //remove comment at end where specified to change program to turn-by-turn mode.
         
         //create a deck of cards using an ArrayList
         ArrayList<Card> cards = new ArrayList<Card>();
